@@ -1,0 +1,4 @@
+rootProject.name = 'JAVA-NIO-Echo-Server'
+
+include('app')
+project(':app').projectDir = file('app')
